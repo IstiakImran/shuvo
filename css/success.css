@@ -1,0 +1,10 @@
+.success{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-image: url(../images/cover.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}

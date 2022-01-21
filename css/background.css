@@ -1,0 +1,103 @@
+/* .hight-nav{
+    height: 100px;
+} */
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    width: 100%;
+    background: linear-gradient(to right, #e6dace 0%, #e6dace 37%, white 37%, white 100%);
+}
+.names{
+    height: 500px;
+    width: 350px;
+    /* padding: 0 10px;
+    margin: 0 10px; */
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px -20px rgba(0, 0, 0, 0.2) ;
+
+}
+.mahmud{
+    background: #F4ECE6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 430px;
+    width: 350px;
+}
+.mahmud img{
+    height: 100px;
+    width: 100px;
+}
+.border{
+    width: 100px;
+    border: 2px solid black;
+}
+.contect-link{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    height: 70px;
+    width: 350px;
+}
+.contect-link a{
+    color: rgb(5, 5, 5);
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 500px;
+    width: 450px;
+    padding: 0 10px;
+    margin: 0 10px;
+}
+.button{
+     text-decoration: none;
+    background-image: linear-gradient(to right, rgb(168, 162, 162), rgb(184, 170, 170));
+    padding: 10px 30px;
+    border-radius: 7px;
+    color: white;
+}
+.divlink{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.divlink a{
+    text-decoration: none;
+    color: rgb(168, 162, 162);
+}
+
+/* media quary */
+@media only screen and (max-width: 688px) {
+    .background{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1100px;
+    width: 100%;
+    background: linear-gradient(white 0%, white 37%, #e6dace 37%, #e6dace 100% );
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 350px;
+    width: 370px;
+    padding: 0 10px;
+    margin: 0 10px;
+    
+}
+}
+
+
+
